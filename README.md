@@ -13,7 +13,7 @@ The script updates daily using GitHub Actions and is ideal for firewall rules, N
 
 Example content:
 
-```rsc
+```mikrotik
 # Auto‎-generated MikroTik address list – GitHub IPs
 /ip firewall address-list
 add address=140.82.112.0/20 list=GitHub
@@ -28,7 +28,7 @@ add address=192.30.252.0/22 list=GitHub
 
 To automatically fetch and import the IP list into your MikroTik router, run the following script:
 
-```rsc
+```mikrotik
 :foreach i in={"GitHub"} do={
   /tool fetch url="https://raw.githubusercontent.com/samsesh/github-ip-address-list/Localhost/github-ip-list.rsc" dst-path=$i
   /ip firewall address-list remove [/ip firewall address-list find list=$i]

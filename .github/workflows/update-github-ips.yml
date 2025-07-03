@@ -28,7 +28,7 @@ jobs:
 
       # ✅ Download the current GitHub meta.json (contains IP prefixes)
       - name: Fetch GitHub meta JSON
-        run: curl -s https://api.github.com/meta -o github-meta.json
+        run: curl -fsSL https://api.github.com/meta -o github-meta.json
 
       # ✅ Generate MikroTik-compatible .rsc address list
       - name: Build MikroTik .rsc script

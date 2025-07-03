@@ -1,37 +1,43 @@
 name: Update GitHub IP List for MikroTik
 
+# ✅ Allows the action to commit to the repo
 permissions:
   contents: write
 
 on:
   schedule:
-    - cron: '0 0 * * *'
-  workflow_dispatch:
+    - cron: '0 0 * * *'        # Runs daily at 00:00 UTC
+  workflow_dispatch:           # Allows manual run from GitHub UI
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Localhost branch (full clone + creds)
+      # ✅ Checkout the 'Localhost' branch (replace if your branch name changes)
+      - name: Checkout Localhost branch
         uses: actions/checkout@v3
         with:
           ref: Localhost
           fetch-depth: 0
-          persist-credentials: true
+          persist-credentials: true  # needed for push using GITHUB_TOKEN
 
+      # ✅ Install jq (used to parse JSON from GitHub meta)
       - name: Install jq
         run: sudo apt-get update && sudo apt-get install -y jq
 
+      # ✅ Download the current GitHub meta.json (contains IP prefixes)
       - name: Fetch GitHub meta JSON
         run: curl -s https://api.github.com/meta -o github-meta.json
 
+      # ✅ Generate MikroTik-compatible .rsc address list
       - name: Build MikroTik .rsc script
         run: |
           OUT=github-ip-list.rsc
           echo "# Auto‑generated MikroTik address list – GitHub IPs" > $OUT
-          echo "/ip firewall address-list"         >> $OUT
+          echo "/ip firewall address-list" >> $OUT
 
+          # Extract and combine all relevant service IPs, sort, deduplicate
           jq -r '
             [
               .web,
@@ -41,26 +47,44 @@ jobs:
               .packages,
               .pages,
               .actions
-            ]
-            | add
-            | unique[]
+            ] | add | unique[]
           ' github-meta.json | sort |
           while read CIDR; do
             echo "add address=${CIDR} list=GitHub" >> $OUT
           done
 
-      - name: Debug: show generated file
+      # ✅ Show debug info so you can verify file generation
+      - name: Debug: show git state
         run: |
-          echo "—— Directory listing ——"
+          echo "=== Current branch ==="
+          git branch
+          echo ""
+          echo "=== Git status ==="
+          git status
+          echo ""
+          echo "=== Directory listing ==="
           ls -al .
           echo ""
-          echo "—— Content of github-ip-list.rsc ——"
-          cat github-ip-list.rsc
+          echo "=== Preview github-ip-list.rsc ==="
+          head -n 20 github-ip-list.rsc || echo "File not found!"
 
-      - name: Commit & push changes to Localhost
+      # ✅ Commit and push changes if the file is new or updated
+      - name: Commit & push to Localhost
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Stage the file
           git add github-ip-list.rsc
-          git diff --cached --exit-code || git commit -m "chore: update GitHub IP list for MikroTik"
-          git push origin Localhost
+
+          # Show the changes staged
+          echo "=== Staged diff ==="
+          git diff --cached || true
+
+          # Only commit if changes exist
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: update GitHub IP list for MikroTik"
+            git push origin Localhost:Localhost
+          else
+            echo "✅ No changes to commit"
+          fi

@@ -1,5 +1,9 @@
 name: Update GitHub IP List for MikroTik
 
+# give the job write access to repo contents:
+permissions:
+  contents: write
+
 # run daily and on manual trigger
 on:
   schedule:

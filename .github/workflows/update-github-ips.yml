@@ -54,7 +54,7 @@ jobs:
           done
 
       # ✅ Show debug info so you can verify file generation
-      - name: Debug: show git state
+      - name: Debug- show git state
         run: |
           echo "=== Current branch ==="
           git branch

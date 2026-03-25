@@ -433,6 +433,7 @@ add address=135.130.245.0/25 list=GitHub
 add address=135.130.245.128/25 list=GitHub
 add address=135.130.246.0/24 list=GitHub
 add address=135.130.25.128/25 list=GitHub
+add address=135.130.253.0/24 list=GitHub
 add address=135.130.26.0/23 list=GitHub
 add address=135.130.28.0/22 list=GitHub
 add address=135.130.32.0/23 list=GitHub
@@ -889,6 +890,7 @@ add address=20.143.13.0/24 list=GitHub
 add address=20.143.136.0/23 list=GitHub
 add address=20.143.146.0/23 list=GitHub
 add address=20.143.164.0/23 list=GitHub
+add address=20.143.170.0/23 list=GitHub
 add address=20.143.2.0/24 list=GitHub
 add address=20.143.3.0/24 list=GitHub
 add address=20.143.32.0/23 list=GitHub
@@ -1309,6 +1311,7 @@ add address=20.201.162.0/23 list=GitHub
 add address=20.201.165.0/24 list=GitHub
 add address=20.201.178.0/24 list=GitHub
 add address=20.201.179.0/24 list=GitHub
+add address=20.201.190.0/24 list=GitHub
 add address=20.201.192.0/21 list=GitHub
 add address=20.201.200.0/22 list=GitHub
 add address=20.201.204.0/24 list=GitHub
@@ -2386,10 +2389,8 @@ add address=2603:1030:401:a90::/63 list=GitHub
 add address=2603:1030:401:a93::/64 list=GitHub
 add address=2603:1030:401:a94::/62 list=GitHub
 add address=2603:1030:401:a98::/61 list=GitHub
-add address=2603:1030:401:aa0::/60 list=GitHub
-add address=2603:1030:401:ab0::/61 list=GitHub
-add address=2603:1030:401:ab8::/63 list=GitHub
-add address=2603:1030:401:aba::/64 list=GitHub
+add address=2603:1030:401:aa0::/59 list=GitHub
+add address=2603:1030:401:ac0::/63 list=GitHub
 add address=2603:1030:401:b0::/60 list=GitHub
 add address=2603:1030:401:c0::/58 list=GitHub
 add address=2603:1030:402::/47 list=GitHub
@@ -2486,6 +2487,7 @@ add address=2603:1030:804:5c::/62 list=GitHub
 add address=2603:1030:804:5e0::/60 list=GitHub
 add address=2603:1030:804:5f0::/61 list=GitHub
 add address=2603:1030:804:5f8::/63 list=GitHub
+add address=2603:1030:804:5fa::/64 list=GitHub
 add address=2603:1030:804:60::/62 list=GitHub
 add address=2603:1030:804:66::/63 list=GitHub
 add address=2603:1030:804:68::/61 list=GitHub
@@ -2698,7 +2700,7 @@ add address=2603:1030:9:870::/62 list=GitHub
 add address=2603:1030:9:874::/64 list=GitHub
 add address=2603:1030:9:876::/63 list=GitHub
 add address=2603:1030:9:878::/62 list=GitHub
-add address=2603:1030:9:87c::/64 list=GitHub
+add address=2603:1030:9:87c::/63 list=GitHub
 add address=2603:1030:9:8::/61 list=GitHub
 add address=2603:1030:9:a0::/60 list=GitHub
 add address=2603:1030:9:b2::/63 list=GitHub
@@ -3399,11 +3401,7 @@ add address=40.120.167.160/27 list=GitHub
 add address=40.120.167.192/26 list=GitHub
 add address=40.120.167.64/29 list=GitHub
 add address=40.120.167.72/30 list=GitHub
-add address=40.120.188.0/23 list=GitHub
-add address=40.120.190.0/24 list=GitHub
-add address=40.120.191.0/25 list=GitHub
-add address=40.120.191.128/26 list=GitHub
-add address=40.120.191.192/27 list=GitHub
+add address=40.120.188.0/22 list=GitHub
 add address=40.121.0.0/16 list=GitHub
 add address=40.122.128.0/17 list=GitHub
 add address=40.122.16.0/20 list=GitHub
@@ -5722,9 +5720,8 @@ add address=57.157.3.204/30 list=GitHub
 add address=57.157.3.208/28 list=GitHub
 add address=57.157.3.224/27 list=GitHub
 add address=57.157.32.0/23 list=GitHub
-add address=57.157.34.0/28 list=GitHub
-add address=57.157.34.16/29 list=GitHub
-add address=57.157.34.24/31 list=GitHub
+add address=57.157.34.0/26 list=GitHub
+add address=57.157.34.64/29 list=GitHub
 add address=57.157.4.0/24 list=GitHub
 add address=57.157.44.0/25 list=GitHub
 add address=57.157.44.128/27 list=GitHub
@@ -5732,9 +5729,7 @@ add address=57.157.44.160/28 list=GitHub
 add address=57.157.44.180/30 list=GitHub
 add address=57.157.44.184/30 list=GitHub
 add address=57.157.44.188/31 list=GitHub
-add address=57.157.44.192/29 list=GitHub
-add address=57.157.44.200/30 list=GitHub
-add address=57.157.44.204/31 list=GitHub
+add address=57.157.44.192/28 list=GitHub
 add address=57.157.48.0/27 list=GitHub
 add address=57.157.48.128/27 list=GitHub
 add address=57.157.48.160/30 list=GitHub
@@ -5755,8 +5750,8 @@ add address=57.157.48.48/28 list=GitHub
 add address=57.157.48.64/26 list=GitHub
 add address=57.157.49.0/26 list=GitHub
 add address=57.157.49.128/27 list=GitHub
-add address=57.157.49.160/30 list=GitHub
-add address=57.157.49.164/31 list=GitHub
+add address=57.157.49.160/28 list=GitHub
+add address=57.157.49.176/30 list=GitHub
 add address=57.157.49.64/28 list=GitHub
 add address=57.157.49.80/30 list=GitHub
 add address=57.157.49.86/31 list=GitHub
@@ -5777,6 +5772,7 @@ add address=57.157.56.100/31 list=GitHub
 add address=57.157.56.64/27 list=GitHub
 add address=57.157.56.96/30 list=GitHub
 add address=57.157.6.0/24 list=GitHub
+add address=57.157.64.0/28 list=GitHub
 add address=57.157.7.0/27 list=GitHub
 add address=57.157.7.128/25 list=GitHub
 add address=57.157.7.50/31 list=GitHub
@@ -5785,15 +5781,16 @@ add address=57.157.7.56/29 list=GitHub
 add address=57.157.7.64/26 list=GitHub
 add address=57.157.72.0/25 list=GitHub
 add address=57.157.72.128/27 list=GitHub
-add address=57.157.72.160/31 list=GitHub
+add address=57.157.72.160/30 list=GitHub
 add address=57.157.76.0/28 list=GitHub
-add address=57.157.76.16/31 list=GitHub
+add address=57.157.76.16/30 list=GitHub
 add address=57.157.8.0/22 list=GitHub
 add address=57.157.80.0/25 list=GitHub
 add address=57.157.80.128/28 list=GitHub
 add address=57.157.80.144/29 list=GitHub
 add address=57.157.80.152/31 list=GitHub
 add address=57.162.0.0/17 list=GitHub
+add address=57.162.128.0/17 list=GitHub
 add address=64.236.0.0/17 list=GitHub
 add address=64.236.128.0/17 list=GitHub
 add address=64.4.54.0/24 list=GitHub

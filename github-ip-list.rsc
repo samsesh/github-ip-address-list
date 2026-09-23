@@ -1,5 +1,7 @@
 # Auto‑generated MikroTik address list – GitHub IPs
 /ip firewall address-list
+add address=100.62.132.232/32 list=GitHub
+add address=100.62.139.158/32 list=GitHub
 add address=104.208.0.0/19 list=GitHub
 add address=104.208.128.0/17 list=GitHub
 add address=104.208.32.0/20 list=GitHub
@@ -865,6 +867,8 @@ add address=172.214.0.0/17 list=GitHub
 add address=172.214.128.0/17 list=GitHub
 add address=172.215.128.0/18 list=GitHub
 add address=172.215.192.0/18 list=GitHub
+add address=18.214.123.177/32 list=GitHub
+add address=18.233.87.154/32 list=GitHub
 add address=185.199.108.0/22 list=GitHub
 add address=185.199.108.153/32 list=GitHub
 add address=185.199.109.153/32 list=GitHub
@@ -3837,6 +3841,12 @@ add address=2a01:111:f403:f908::/62 list=GitHub
 add address=2a01:111:f403:f90c::/62 list=GitHub
 add address=2a01:111:f403:f910::/62 list=GitHub
 add address=2a0a:a440::/29 list=GitHub
+add address=3.219.87.128/32 list=GitHub
+add address=34.202.115.28/32 list=GitHub
+add address=34.202.143.207/32 list=GitHub
+add address=34.223.158.89/32 list=GitHub
+add address=34.237.233.57/32 list=GitHub
+add address=35.174.28.24/32 list=GitHub
 add address=4.148.0.0/16 list=GitHub
 add address=4.149.0.0/18 list=GitHub
 add address=4.149.128.0/17 list=GitHub
@@ -5312,6 +5322,7 @@ add address=40.98.5.0/24 list=GitHub
 add address=40.98.6.0/24 list=GitHub
 add address=40.98.8.0/24 list=GitHub
 add address=40.98.9.0/24 list=GitHub
+add address=44.228.147.113/32 list=GitHub
 add address=48.192.0.0/17 list=GitHub
 add address=48.192.128.0/18 list=GitHub
 add address=48.192.192.0/19 list=GitHub
@@ -5684,6 +5695,7 @@ add address=48.221.128.0/17 list=GitHub
 add address=48.222.0.0/17 list=GitHub
 add address=48.222.128.0/17 list=GitHub
 add address=48.223.128.0/17 list=GitHub
+add address=50.16.210.73/32 list=GitHub
 add address=50.85.0.0/17 list=GitHub
 add address=50.85.128.0/18 list=GitHub
 add address=50.85.192.0/19 list=GitHub
@@ -6476,6 +6488,7 @@ add address=52.190.128.0/17 list=GitHub
 add address=52.191.0.0/17 list=GitHub
 add address=52.191.128.0/18 list=GitHub
 add address=52.191.192.0/18 list=GitHub
+add address=52.200.10.122/32 list=GitHub
 add address=52.224.0.0/16 list=GitHub
 add address=52.225.0.0/17 list=GitHub
 add address=52.225.128.0/21 list=GitHub
@@ -6665,7 +6678,13 @@ add address=52.254.96.0/20 list=GitHub
 add address=52.255.0.0/19 list=GitHub
 add address=52.255.128.0/17 list=GitHub
 add address=52.255.64.0/18 list=GitHub
+add address=52.35.47.185/32 list=GitHub
+add address=52.40.23.199/32 list=GitHub
+add address=52.7.11.124/32 list=GitHub
 add address=52.96.11.0/24 list=GitHub
+add address=54.211.170.155/32 list=GitHub
+add address=54.235.15.98/32 list=GitHub
+add address=54.245.203.201/32 list=GitHub
 add address=57.150.0.0/23 list=GitHub
 add address=57.150.10.0/26 list=GitHub
 add address=57.150.10.128/25 list=GitHub
@@ -7424,3 +7443,4 @@ add address=94.245.88.0/21 list=GitHub
 add address=98.64.0.0/16 list=GitHub
 add address=98.71.0.0/17 list=GitHub
 add address=98.71.128.0/17 list=GitHub
+add address=98.89.53.239/32 list=GitHub

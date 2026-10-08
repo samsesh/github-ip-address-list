@@ -7141,7 +7141,10 @@ add address=9.163.0.0/16 list=GitHub
 add address=9.169.0.0/17 list=GitHub
 add address=9.169.128.0/17 list=GitHub
 add address=9.234.0.0/17 list=GitHub
+add address=9.234.106.48/28 list=GitHub
 add address=9.234.128.0/17 list=GitHub
+add address=9.234.98.160/28 list=GitHub
+add address=9.234.98.176/28 list=GitHub
 add address=94.245.104.0/21 list=GitHub
 add address=94.245.117.96/27 list=GitHub
 add address=94.245.118.0/25 list=GitHub

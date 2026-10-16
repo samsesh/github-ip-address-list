@@ -3781,6 +3781,8 @@ add address=2a01:111:f403:f90c::/62 list=GitHub
 add address=2a01:111:f403:f910::/62 list=GitHub
 add address=2a0a:a440::/29 list=GitHub
 add address=3.219.87.128/32 list=GitHub
+add address=3.41.210.0/24 list=GitHub
+add address=3.42.157.0/24 list=GitHub
 add address=34.202.115.28/32 list=GitHub
 add address=34.202.143.207/32 list=GitHub
 add address=34.223.158.89/32 list=GitHub

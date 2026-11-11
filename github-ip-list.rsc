@@ -1578,10 +1578,6 @@ add address=20.201.230.0/24 list=GitHub
 add address=20.201.231.0/24 list=GitHub
 add address=20.201.241.0/24 list=GitHub
 add address=20.201.242.0/24 list=GitHub
-add address=20.201.28.144/32 list=GitHub
-add address=20.201.28.148/32 list=GitHub
-add address=20.201.28.151/32 list=GitHub
-add address=20.201.28.152/32 list=GitHub
 add address=20.202.1.0/24 list=GitHub
 add address=20.202.105.0/24 list=GitHub
 add address=20.202.106.0/24 list=GitHub

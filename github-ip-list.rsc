@@ -823,13 +823,16 @@ add address=168.63.92.0/22 list=GitHub
 add address=168.63.96.0/19 list=GitHub
 add address=172.129.128.0/17 list=GitHub
 add address=172.130.153.16/28 list=GitHub
+add address=172.130.18.192/28 list=GitHub
 add address=172.130.201.80/28 list=GitHub
+add address=172.130.45.112/28 list=GitHub
 add address=172.131.0.0/16 list=GitHub
 add address=172.132.0.0/17 list=GitHub
 add address=172.134.0.0/16 list=GitHub
 add address=172.138.0.0/16 list=GitHub
 add address=172.139.0.0/17 list=GitHub
 add address=172.139.128.0/17 list=GitHub
+add address=172.139.64.112/28 list=GitHub
 add address=172.140.0.0/17 list=GitHub
 add address=172.140.128.0/17 list=GitHub
 add address=172.143.0.0/17 list=GitHub
@@ -1676,6 +1679,7 @@ add address=20.207.73.82/32 list=GitHub
 add address=20.207.73.83/32 list=GitHub
 add address=20.207.73.85/32 list=GitHub
 add address=20.207.73.86/32 list=GitHub
+add address=20.208.89.80/28 list=GitHub
 add address=20.209.0.0/23 list=GitHub
 add address=20.209.10.0/23 list=GitHub
 add address=20.209.100.0/23 list=GitHub
@@ -1783,6 +1787,7 @@ add address=20.242.128.0/17 list=GitHub
 add address=20.245.0.0/16 list=GitHub
 add address=20.246.0.0/17 list=GitHub
 add address=20.246.128.0/17 list=GitHub
+add address=20.247.166.64/28 list=GitHub
 add address=20.25.0.0/17 list=GitHub
 add address=20.25.128.0/18 list=GitHub
 add address=20.25.192.0/18 list=GitHub
@@ -2057,6 +2062,7 @@ add address=20.59.0.0/18 list=GitHub
 add address=20.59.128.0/18 list=GitHub
 add address=20.59.192.0/18 list=GitHub
 add address=20.59.64.0/18 list=GitHub
+add address=20.6.7.16/28 list=GitHub
 add address=20.60.0.0/24 list=GitHub
 add address=20.60.1.0/24 list=GitHub
 add address=20.60.110.0/23 list=GitHub
@@ -5094,6 +5100,7 @@ add address=4.154.0.0/15 list=GitHub
 add address=4.156.0.0/15 list=GitHub
 add address=4.159.108.160/28 list=GitHub
 add address=4.159.197.192/28 list=GitHub
+add address=4.163.8.144/28 list=GitHub
 add address=4.172.0.0/15 list=GitHub
 add address=4.174.0.0/16 list=GitHub
 add address=4.175.0.0/16 list=GitHub
@@ -5112,6 +5119,8 @@ add address=4.208.26.196/32 list=GitHub
 add address=4.208.26.197/32 list=GitHub
 add address=4.208.26.198/32 list=GitHub
 add address=4.208.26.200/32 list=GitHub
+add address=4.209.111.112/28 list=GitHub
+add address=4.209.112.0/28 list=GitHub
 add address=4.210.0.0/17 list=GitHub
 add address=4.210.128.0/17 list=GitHub
 add address=4.225.11.194/32 list=GitHub
@@ -5120,6 +5129,7 @@ add address=4.225.11.199/32 list=GitHub
 add address=4.225.11.200/32 list=GitHub
 add address=4.225.11.201/32 list=GitHub
 add address=4.225.187.240/28 list=GitHub
+add address=4.225.189.240/28 list=GitHub
 add address=4.227.0.0/17 list=GitHub
 add address=4.227.128.0/17 list=GitHub
 add address=4.228.31.144/32 list=GitHub
@@ -7919,6 +7929,7 @@ add address=57.153.0.0/16 list=GitHub
 add address=57.154.0.0/17 list=GitHub
 add address=57.154.128.0/18 list=GitHub
 add address=57.154.192.0/18 list=GitHub
+add address=57.155.223.240/28 list=GitHub
 add address=57.157.0.0/25 list=GitHub
 add address=57.157.0.128/26 list=GitHub
 add address=57.157.0.192/27 list=GitHub
@@ -8351,6 +8362,7 @@ add address=74.157.0.0/16 list=GitHub
 add address=74.158.128.0/17 list=GitHub
 add address=74.159.0.0/17 list=GitHub
 add address=74.159.128.0/17 list=GitHub
+add address=74.161.79.192/28 list=GitHub
 add address=74.178.0.0/17 list=GitHub
 add address=74.178.128.0/17 list=GitHub
 add address=74.179.0.0/17 list=GitHub
